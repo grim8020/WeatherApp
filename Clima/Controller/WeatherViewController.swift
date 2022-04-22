@@ -20,12 +20,13 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         
         //text field should refer back to viewcontroller
         searchTextField.delegate = self
-        
-        
-        
-        
     }
 
+    //return button gets pressed -> what should it do.  Must return a true or fasle (Bool) at the end of the function to determine if it should proccess that action
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print(searchTextField.text!)
+        return true
+    }
 
     @IBAction func searchPressed(_ sender: UIButton) {
         print(searchTextField.text!)
