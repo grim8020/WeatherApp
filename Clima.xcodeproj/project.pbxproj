@@ -128,7 +128,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1330;
-				ORGANIZATIONNAME = "App Brewery";
+				ORGANIZATIONNAME = GrimLab;
 				TargetAttributes = {
 					ADAA27AC231BBFAF00365194 = {
 						CreatedOnToolsVersion = 11.0;
